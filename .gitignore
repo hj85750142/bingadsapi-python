@@ -1,6 +1,10 @@
 # Byte-compiled / optimized / DLL files
 # Local authentication, diagnostic logs, and customer input files
+auth_helper.py
 refresh.txt
+refresh_token*
+access_token*
+tokens.json
 .env
 .env.*
 credentials.json

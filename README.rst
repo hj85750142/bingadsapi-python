@@ -22,9 +22,12 @@ The examples under ``examples/v13`` include:
 * ``enhanced_offline_conversion_upload/upload_excel_conversions.py``:
   local Excel conversion validation and optional upload.
 
-Before running, configure ``YOUR_DEVELOPER_TOKEN`` and ``YOUR_CLIENT_ID`` in
-``examples/v13/auth_helper.py`` and replace ``YOUR_USER_ID`` in the three
-account-search scripts with your own user ID. Run the examples from
+Before running, copy ``examples/v13/auth_helper.example.py`` to
+``examples/v13/auth_helper.py`` locally, then configure ``YOUR_DEVELOPER_TOKEN``
+and ``YOUR_CLIENT_ID`` in that local file. The real ``auth_helper.py`` and
+refresh-token files are ignored by Git and must never be committed.
+Replace ``YOUR_USER_ID`` in the three account-search scripts with your own
+user ID. Run the examples from
 ``examples/v13`` using an environment with the project dependencies installed.
 The suds comparison also requires ``suds-community``.
 
